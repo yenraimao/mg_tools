@@ -5,10 +5,10 @@ import requests
 api_key = ""
 
 # update the below to reflect domain that template is under
-my_domain = 'jeremypockey.com'
+my_domain = ''
 
 # update the below to reflect your template name
-template_name = 'mytemplate'
+template_name = ''
 
 def get_template_version():
     return requests.get(
